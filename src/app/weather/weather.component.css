@@ -1,0 +1,159 @@
+.container {
+    width: 100vw;
+    height: 85vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://i.pinimg.com/originals/39/25/e3/3925e31cdd0b8f583cab882a39c88fc2.gif);
+    background-size: cover;
+}
+
+.fluid-container {
+    display: block;
+    border-radius: 10px;
+    width: 650px;
+    max-height: 100%;
+    /* background-image: linear-gradient(to bottom, #ff9900, #ff3300, #ff6600); */
+    background-image: url(https://goodmorningwallpapers.info/wp-content/uploads/2023/01/Good-Morning-Gif-Nature.gif);
+    color: aliceblue;
+    text-align: center;
+    /* To center the content horizontally */
+    margin: 0 auto;
+    /* To center the container */
+    overflow: hidden;
+    background-size: cover;
+}
+
+p {
+    text-transform: uppercase;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+
+/* STYLE FOR INPUT BOX OF FORM  */
+input[type=text] {
+    width: 100%;
+    font-size: large;
+    font-weight: bold;
+    padding: 12px 24px;
+    margin: 25px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
+/* END HERE  */
+
+/* STYLING FOR BUTTON IN FORM  - START */
+.button {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button1 {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+h1.fluid-container {
+    text-align: center;
+}
+
+/* START- css for weather details and colorful button like bgcolor for each weather detail  */
+
+.weather-details {
+    text-align: center;
+    margin-top: 20px;
+
+}
+/* .day-background {
+    background-image: url(https://goodmorningwallpapers.info/wp-content/uploads/2023/01/Good-Morning-Gif-Nature.gif);
+
+  }
+   */
+  .night-background {
+    background-image: url(https://e0.pxfuel.com/wallpapers/650/780/desktop-wallpaper-best-night-nature-scenery-gifs-background-beautiful-night-scenery.jpg);
+  }
+  
+.weather-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.description {
+    background-color: #3498db;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.temperature {
+    background-color: #e74c3c;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.humidity {
+    background-color: #2ecc71;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+.wind {
+    background-color: #f39c12;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  footer p {
+    margin: 0;
+    font-size: 14px;
+  }
+  .social-icons {
+    margin-top: 10px;
+  }
+  
+  .social-icon {
+    font-size: 24px;
+    margin: 0 10px;
+    color: #333;
+    text-decoration: none;
+  }
+
+
+  
+  
+  
+ 
+  
+  
+  
+  
+  
+  
